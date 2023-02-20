@@ -4,16 +4,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\Cliente;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
+
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -50,5 +42,5 @@ Route::put('/atualizar-cliente/{id_do_cliente}', function (Request $informacoes,
 Route::get('/excluir-cliente/{id_do_cliente}' , function ($id_do_cliente) {
     $cliente = Cliente::findOrFail($id_do_cliente);
     $cliente->delete();
-    echo "cliente excluido com Sucesso";
+    echo "Cliente excluido com Sucesso";
 });
