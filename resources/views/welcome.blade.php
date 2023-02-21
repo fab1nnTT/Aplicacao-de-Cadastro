@@ -13,8 +13,11 @@
     <label for="">Nome:</label>
     <input type="text" placeholder="Digite o seu nome..." name="nome_cliente">
     <br /> <br />
-    <label for="">Telefone</label>
-    <input type="text" placeholder="Digite o seu telefone..." name="telefone_cliente">
+    <label for="">CPF</label>
+    <input type="text" placeholder="Digite o seu CPF..." name="cpf_cliente">
+    <br /> <br >
+    <label for="">Email</label>
+    <input type="text" placeholder="Digite o seu Email..." name="email_cliente">
     <br /> <br >
     <button>Enviar Cadastro</button>
     

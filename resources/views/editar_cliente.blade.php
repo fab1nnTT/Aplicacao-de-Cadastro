@@ -14,8 +14,11 @@
     <label for="">Nome:</label>
     <input type="text" placeholder="Digite o seu nome..." name="nome_cliente" value="{{ $cliente->nome }}">
     <br /> <br />
-    <label for="">Telefone</label>
-    <input type="text" placeholder="Digite o seu telefone..." name="telefone_cliente" value="{{ $cliente->telefone }}">
+    <label for="">CPF</label>
+    <input type="text" placeholder="Digite o seu CPF..." name="cpf_cliente" value="{{ $cliente->cpf }}">
+    <br /> <br >
+    <label for="">Email</label>
+    <input type="text" placeholder="Digite o seu email..." name="email_cliente" value="{{ $cliente->email }}">
     <br /> <br >
     <button>Enviar Cadastro</button>
 </form>
